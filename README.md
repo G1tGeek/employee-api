@@ -70,7 +70,7 @@
 > go tool cover -html=cover.out
     *Generates html coverage report*
 ### Configure main.go
-> vi main.go'
+> vi main.go
     *Replace localhost to <public-ip:8080>*
 ### Run the API
 > go run main.go
