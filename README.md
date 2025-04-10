@@ -50,7 +50,8 @@
 > sudo vi scylla.yaml  
 
 *Changes to make:*  
-- `rpc_address: [instance_private_ip]`  
+- `rpc_address: [instance_private_ip]`
+ADD  
 - `authenticator: PasswordAuthenticator`  
 - `authorizer: CassandraAuthorizer`
 
