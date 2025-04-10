@@ -51,7 +51,7 @@
 
 *Changes to make:*  
 - `rpc_address: [instance_private_ip]`
-ADD  
+> ADD  
 - `authenticator: PasswordAuthenticator`  
 - `authorizer: CassandraAuthorizer`
 
