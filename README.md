@@ -50,10 +50,10 @@
 > sudo vi scylla.yaml  
 
 *Changes to make:*  
-- `rpc_address: [instance_private_ip]`
+- rpc_address: instance_private_ip
 > Add  
-- `authenticator: PasswordAuthenticator`  
-- `authorizer: CassandraAuthorizer`
+- authenticator: PasswordAuthenticator  
+- authorizer: CassandraAuthorizer
 
 > sudo /opt/scylladb/scripts/scylla_io_setup  
 *Scylla dependencies installation and service file creation*
