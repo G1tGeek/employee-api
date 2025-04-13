@@ -50,6 +50,8 @@
 - sudo vi scylla.yaml  
 
 *Changes to make:*  
+- listen_address: private ip
+- seeds: private ip
 - rpc_address: instance_private_ip
 > Add  
 - authenticator: PasswordAuthenticator  
