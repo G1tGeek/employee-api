@@ -13,8 +13,13 @@
 ## Installing dependencies for employee-api
 
 ### Go-lang
-- sudo apt install -y golang-go && go version
-  > *Installs golang and checks version to confirm download*
+- cd /tmp
+- wget https://go.dev/dl/go1.21.5.linux-amd64.tar.gz
+- sudo tar -C /usr/local -xzf go1.21.5.linux-amd64.tar.gz
+- export PATH=$PATH:/usr/local/go/bin
+- source ~/.bashrc
+- go version
+
 
 ### ScyllaDB
 - sudo mkdir -p /etc/apt/keyrings
