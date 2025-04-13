@@ -1,4 +1,5 @@
 # employee-api
+## Always view this file in RAW format present near upper right corner of github page
 
 ## Create AWS EC2 Instance
 - AMI: Use Linux based image Ubuntu 22/24  
